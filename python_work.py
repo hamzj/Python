@@ -1,3 +1,4 @@
+
 # 使用“方法”修改字符串的大小写
 first_name = "ada"
 last_name = "love"
@@ -13,9 +14,11 @@ print("\n\tzhang jie")
 
 
 #删除空白    
-'''开头空白（lstrip）  
-      尾空白（rstrip）
-      两端空白（strip）'''
+'''
+开头空白（lstrip）  
+尾空白（rstrip）
+两端空白（strip）
+'''
 favorite_language = "     python     "
 print(favorite_language)
 favorite_language = favorite_language.strip()
